@@ -13,7 +13,8 @@ function App() {
       <main> 
         <Dictionary defaultWord="shine"/>
       </main>
-      <footer className="text-center mt-5"><small >Coded by Deni</small></footer>
+      <footer className="text-center mt-5"><small >Coded by <a href="https://github.com/Deni-ux/dictionary-project">
+        Deni</a> </small></footer>
     </div></div> 
   );
 }
