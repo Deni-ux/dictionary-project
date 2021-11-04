@@ -1,19 +1,22 @@
 import React, {useState} from "react";
+import Results from "./Results"
 import axios from "axios";
 import "./Dictionary.css";
 
 export default function Dictionary(){
     let [keyword, setKeyword] = useState("");
+    let [defition, setDefinition] = useState(null); //empty cause we gonna show some results
 
 
 function handleResponse(response){
-    console.log(response.data);
+      setDefinition(response.data[0]);
+    
 }
 
 
 function search(event){
     event.preventDefault();
-    alert(`Searching for ${keyword} definition`);
+ 
 
 
     let apiUrl =` https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
@@ -29,11 +32,11 @@ function handleKeywordChange(event){
 //we need to store the value- we use state- we are updating this value
     return (
         <div className="Dictionary">
-            <form className="text-center" onSubmit={search}>
+            <form onSubmit={search}>
                 <input type="search"
-                onChange={handleKeywordChange}
-                
-                />
+                onChange={handleKeywordChange} />
+
+                <Results results={defition}/>
             </form>
         </div>
     )
