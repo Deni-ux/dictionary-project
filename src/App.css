@@ -3,7 +3,7 @@
  
 }
 .App-container{
-    max-width: 900px;
+    max-width: 960px;
     margin: 20px auto;
     display: block;
 
@@ -11,4 +11,13 @@
  header{
      font-size: 44px;
      color:#2F5061;
+ }
+
+ footer a{
+     text-decoration: none;
+     color:#E57F84;
+ }
+ footer a:hover{
+     color:#4297A0;
+     text-decoration: underline;
  }

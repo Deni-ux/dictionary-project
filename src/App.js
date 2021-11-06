@@ -14,7 +14,7 @@ function App() {
         <Dictionary defaultWord="sea"/>
       </main>
       <footer className="text-center mt-5"><small >Coded by <a href="https://github.com/Deni-ux/dictionary-project" target="_blank" rel="noreferrer">
-        Deni</a> </small></footer>
+        Denisa Haka</a> </small></footer>
     </div></div> 
   );
 }
