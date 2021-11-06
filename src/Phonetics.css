@@ -1,0 +1,26 @@
+
+.Phonetics a{
+  
+  text-decoration: none;
+  color:#EF7C8E;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px 15px;
+  
+  font-weight: bold;
+  font-size: 13px;
+  
+  }
+.Phonetics a:hover{
+  background-color: #ef7c8e;
+  color: white;
+}
+
+
+  .Phonetics .word{
+      font-size: 22px;
+      opacity: 0.5;
+      font-weight: bold;
+     
+  }
+

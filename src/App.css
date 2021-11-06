@@ -2,6 +2,13 @@
     margin: 40px 0;
  
 }
+.App-container{
+    max-width: 900px;
+    margin: 20px auto;
+    display: block;
+
+}
  header{
      font-size: 44px;
+     color:#2F5061;
  }

@@ -6,12 +6,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <div className="container">
+     <div className="App-container">
       <header className="App-header">
         Dictionary Project
       </header>
       <main> 
-        <Dictionary defaultWord="shine"/>
+        <Dictionary defaultWord="sea"/>
       </main>
       <footer className="text-center mt-5"><small >Coded by <a href="https://github.com/Deni-ux/dictionary-project" target="_blank" rel="noreferrer">
         Deni</a> </small></footer>

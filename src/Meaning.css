@@ -1,0 +1,26 @@
+.Meaning h3{
+    color:#4297A0;
+    opacity: 0.7;
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+.Meaning .definition{
+    color:#2F5061;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Meaning .example{
+    opacity:0.6;
+    font-size:16px;
+    margin-top: 10px;
+}
+
+.synonyms{
+    margin-top: 20px;
+    font-size: 16px;
+    color:#2F5061;
+    opacity: 0.8;
+   
+}

@@ -1,0 +1,28 @@
+.Dictionary section {
+  
+    padding: 30px;
+    border-radius: 8px;
+ 
+    box-shadow: 8px 5px 15px rgb(0, 0, 0, 0.1);
+    margin: 20px 0;
+    background-color: white;
+  
+}
+.Dictionary .askUser{
+    color:#2F5061;
+}
+
+.Dictionary input{
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    color:#E57F84;
+    border-radius: 8px;
+}
+
+.Dictionary .hint{
+    font-size: 14px;
+    margin-top: 8px;
+    opacity:0.7;
+
+}
