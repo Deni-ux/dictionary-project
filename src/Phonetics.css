@@ -1,14 +1,15 @@
 
-.Phonetics a{
+.Phonetics i{
   
-  text-decoration: none;
+  
   color:#EF7C8E;
+  opacity:0.8;
   border: 1px solid #ddd;
-  border-radius: 20px;
-  padding: 5px 15px;
-  
+  border-radius: 50px;
+  padding: 8px;
+  margin-left:25px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
   
   }
 .Phonetics a:hover{
@@ -18,9 +19,9 @@
 
 
   .Phonetics .word{
-      font-size: 22px;
+      font-size: 26px;
       opacity: 0.5;
-      font-weight: bold;
+      
      
   }
 
