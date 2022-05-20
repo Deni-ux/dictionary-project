@@ -2,7 +2,7 @@ import React from "react";
 import "./Images.css";
 
 export default function Images(props){
-    console.log(props.photos);
+    
     
     if (props.photos) {
         return(

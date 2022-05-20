@@ -17,7 +17,7 @@ function handleDictionaryResponse(response){
 }
 
 function handlePexelsResponse(response){
-    console.log(response.data);
+
     setPhotos(response.data.photos);
 
 }
